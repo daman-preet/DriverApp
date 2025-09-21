@@ -2,6 +2,23 @@
 
 Booking screens designed for driver app.
 
+## App Note (Features covered):
+
+- Home Screen: Three main tabs are created(Available, My Bookings and Profile)
+- Available Screen:
+  - Top Tab navigation has been added with All Tabs(All, Last Minute, Preferred, Airport, Early Morning, Late Night and Done).
+  - Dummy listing is added in data.ts file.
+  - All listing will display the whole data and on other tabs filtered data is visible based on selected tab.
+- My Bookings Screen:
+  - Active and Completed Tabs are added.
+  - User can navigate to Booking Details Screen from my bookings by clicking on any card.
+  - Two action buttons are added (No Thanks and Accept).
+  - By default Accept button is disabled. Accept button becomes enabled only after user selects all the checkboxes.
+  - No Thanks button will take the user back to previous screen.
+- Profile Screen:
+  - User Avatar is added with dummy profile image and fields (Name, email and phone number).
+  - Two action buttons for Edit Profile and Logout.
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
@@ -99,20 +116,3 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-
-> **App Note (Features covered)**:
-
-- Home Screen: Three main tabs are created(Available, My Bookings and Profile)
-- Available Screen:
-  - Top Tab navigation has been added with All Tabs(All, Last Minute, Preferred, Airport, Early Morning, Late Night and Done).
-  - Dummy listing is added in data.ts file.
-  - All listing will display the whole data and on other tabs filtered data is visible based on selected tab.
-- My Bookings Screen:
-  - Active and Completed Tabs are added.
-  - User can navigate to Booking Details Screen from my bookings by clicking on any card.
-  - Two action buttons are added (No Thanks and Accept).
-  - By default Accept button is disabled. Accept button becomes enabled only after user selects all the checkboxes.
-  - No Thanks button will take the user back to previous screen.
-- Profile Screen:
-  - User Avatar is added with dummy profile image and fields (Name, email and phone number).
-  - Two action buttons for Edit Profile and Logout.
